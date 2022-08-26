@@ -41,7 +41,7 @@ const Home = (props) => {
     return (
         <div className={styles.pageContainer}>
             <div className={styles.searchBarWrapper}>
-                <input type="text" placeholder="Search something..." className={styles.searchBar} onChange={inputChangeHandler} />
+                <input type="text" placeholder="🔍 Search tracks/artists..." className={styles.searchBar} onChange={inputChangeHandler} />
             </div>
 
             <div className={styles.header}>
