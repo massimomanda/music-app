@@ -1,0 +1,39 @@
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    padding: 0.8rem 0;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+}
+.pageContainer{
+    padding: 1rem 2rem;
+}
+.artist{
+    opacity: 0.5;
+}
+.title, .rating{
+    font-weight: 700;
+}
+.rating{
+    color: rgb(255, 196, 0);
+}
+hr{
+    opacity: 0.2;
+}
+.route{
+    text-decoration: none;
+    color: white;
+}
