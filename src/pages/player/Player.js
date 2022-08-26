@@ -8,7 +8,11 @@ const Player = () => {
         <img className={styles.img} src={from.img} />
         <h3 className={styles.title}>{from.title}</h3>
         <div className={styles.artist}>{from.artist}</div>
-    </div>)
+        <audio controls className={styles.player}>
+            <source src={from.mp3Path} type="audio/mp3"/>
+                  
+        </audio>
+            </div>)
 }
 
-export default Player
+            export default Player

@@ -17,7 +17,7 @@ function App() {
     artist: 'djJack',
     img: require('./assets/img/Pink_Elephants.png'),
     rating: 3,
-    mp3Path: './assets/tracks/Pink_Elephants.mp3',
+    mp3Path: require('./assets/tracks/Pink_Elephants.mp3'),
     id: 1
   },
   {
@@ -25,7 +25,7 @@ function App() {
     artist: 'Coldplay',
     img: require('./assets/img/Viva_la_Vida.png'),
     rating: 5,
-    mp3Path: './assets/tracks/Viva_la_Vida.mp3',
+    mp3Path: require('./assets/tracks/Viva_la_Vida.mp3'),
     id: 2
   },
   {
@@ -33,7 +33,7 @@ function App() {
     artist: 'Goku',
     img: require('./assets/img/Dragon_Ball_Z.png'),
     rating: 4,
-    mp3Path: './assets/tracks/Ball_Z.mp3',
+    mp3Path: require('./assets/tracks/Ball_Z.mp3'),
     id: 3
   },
   ]
