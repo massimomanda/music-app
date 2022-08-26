@@ -1,8 +1,40 @@
+.searchBarWrapper {
+    padding-top: 2rem;
+}
+
+.searchBar {
+    width: 100%;
+    background-color: rgb(14, 14, 24);
+    border: 2px solid rgba(255, 255, 255, 0.205);
+    padding: 0.7rem 2rem;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    color: white;
+}
+
+.searchBar:focus, .searchBar:active, .searchBar:focus-visible {
+    border: 2px solid white;
+    outline: none;
+}
+
 .img{
     width: 50px;
     height: 50px;
     border-radius: 10px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+svg {
+    width: 134px;
+}
+
 .container{
     display: flex;
     padding: 0.8rem 0;
